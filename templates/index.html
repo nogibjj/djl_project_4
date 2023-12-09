@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakespeare Poem Generator</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f8ecd4; /* Lighter yellowish old book color */
+            margin: 0; /* Remove default margin to avoid spacing around the body */
+            font-family: 'Times New Roman', serif; /* Set a traditional font for an old book feel */
+        }
+
+        h1 {
+            color: #333; /* Dark gray color for the heading */
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* Adjust the gap between image and form */
+            margin-top: 20px; /* Add some top margin for better spacing */
+            background-color: transparent; /* Transparent background for the container */
+            padding: 20px; /* Add padding to the container */
+            border-radius: 10px; /* Add border-radius for a softer appearance */
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            background-color: white; /* White background for the image */
+            padding: 10px; /* Add padding to the image */
+            border-radius: 10px; /* Add border-radius for a softer appearance */
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        button {
+            font-size: 12px; /* Larger font size for buttons */
+            padding: 5px 5px; /* Add padding to buttons */
+            background-color: #ddd; /* Light gray background color */
+            margin-top: 5px; /* Add margin between buttons */
+        }
+
+        button:hover {
+            background-color: #aaa; /* Darker gray background color on hover */
+        }
+
+        button:active {
+            background-color: #666; /* Even darker gray background color when pressed */
+        }
+
+        pre {
+            font-family: cursive, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Shakespeare Poem Generator</h1>
+
+    <div class="container">
+        <img src="{{ url_for('static', filename='shakespeare.png') }}" alt="Shakespeare Image">
+
+        <form action="{{ url_for('home') }}" method="post">
+            <br>
+            {% for phrase in phrases %}
+                <button type="submit" name="shakespeare_phrase" value="{{ phrase }}">{{ phrase }}</button>
+            {% endfor %}
+        </form>
+    </div>
+
+    {% if generated_poem %}
+        <h2>Generated Poem</h2>
+        <pre>{{ generated_poem }}</pre>
+    {% endif %}
+</body>
+</html>
