@@ -1,5 +1,5 @@
 # Project 4 Shakespeare Poem Generator Flask APP
-visit the app: [(shakespearepoemgenerator.azurewebsites.net)]
+visit the app: [shakespearepoemgenerator.azurewebsites.net] (shakespearepoemgenerator.azurewebsites.net)
 This project is a web-based application that generates Shakespearean poems based on user-selected phrases. The application is built using Flask and can be easily deployed using Docker and Azure App Services. 
 
 The poems in the Shakespeare Poem Generator are generated using the Hugging Face Transformers library, which leverages pre-trained language models. Specifically, the generator uses the GPT-2 (Generative Pre-trained Transformer 2) model.
