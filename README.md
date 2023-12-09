@@ -43,8 +43,6 @@ Watch the demo video on YouTube:
 This project demonstrates the use of Flask for building a web-based application and Docker for containerization. The application's simplicity allows for easy deployment on various platforms, such as Azure App Services.
 
 Recommendations:
-Consider trainig the 
-Consider implementing additional features or integrations to enhance the application.
-Explore optimizing the Docker image for production use.
+- Consider trainig the model on Shakespeare texts for more accurete poems
+- Consider implementing additional features or integrations to enhance the application.
 Continuously monitor and optimize the application's performance in a production environment.
-By following the provided instructions, you can deploy the Shakespeare Poem Generator and experience the charm of generating poetic verses inspired by the great William Shakespeare.
