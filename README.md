@@ -16,10 +16,9 @@ It's important to note that the quality and style of the generated poems heavily
 
 <img width="1710" alt="Screenshot 2023-12-08 at 11 42 15 PM" src="https://github.com/nogibjj/djl_project_4/assets/143829673/36d3cc84-f2cb-401c-9710-714a17da4a86">
 
-
-```
 ## Project Structure
 
+```
 ├── Dockerfile
 ├── Makefile
 ├── README.md
