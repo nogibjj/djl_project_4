@@ -8,7 +8,7 @@ The poems in the Shakespeare Poem Generator are generated using the Hugging Face
 2. Prompting: When a user clicks on one of the provided Shakespearean phrases, it serves as a prompt for the GPT-2 model. The selected phrase acts as the initial input to the model, guiding it to generate coherent and contextually relevant text.
 3. Text Generation: The GPT-2 model generates a continuation of the given prompt, producing a sequence of text that extends the user-provided phrase into a full poem. The model's training on a diverse range of text data allows it to capture the style and language of William Shakespeare.
 
-** It's important to note that the quality and style of the generated poems heavily depend on the training data of the GPT-2 model. GPT-2 has been trained on a diverse range of internet text, including literary works, which allows it to mimic various writing styles, including that of William Shakespeare. The model's ability to capture context and generate coherent text makes it well-suited for creative text generation tasks like poem writing.** 
+**It's important to note that the quality and style of the generated poems heavily depend on the training data of the GPT-2 model. GPT-2 has been trained on a diverse range of internet text, including literary works, which allows it to mimic various writing styles, including that of William Shakespeare. The model's ability to capture context and generate coherent text makes it well-suited for creative text generation tasks like poem writing.** 
 
 <img width="1710" alt="Screenshot 2023-12-08 at 11 42 15 PM" src="https://github.com/nogibjj/djl_project_4/assets/143829673/36d3cc84-f2cb-401c-9710-714a17da4a86">
 
