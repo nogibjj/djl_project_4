@@ -31,8 +31,7 @@ The poems in the Shakespeare Poem Generator are generated using the Hugging Face
 
 
 ## Deployment  on Azure App Services:
-
-
+The project was dockerized in Duckerhub and....
 
 
 ## YouTube Demo
