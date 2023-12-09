@@ -17,7 +17,7 @@ The poems in the Shakespeare Poem Generator are generated using the Hugging Face
 <img width="1710" alt="Screenshot 2023-12-08 at 11 42 15 PM" src="https://github.com/nogibjj/djl_project_4/assets/143829673/36d3cc84-f2cb-401c-9710-714a17da4a86">
 
 
-
+```
 ## Project Structure
 
 ├── Dockerfile
@@ -31,7 +31,7 @@ The poems in the Shakespeare Poem Generator are generated using the Hugging Face
 │   └── shakespeare.png
 └── templates
     └── index.htm
-
+```
 
 ## Deployment  on Azure App Services:
 The project was dockerized in Duckerhub and....
@@ -39,7 +39,7 @@ The project was dockerized in Duckerhub and....
 
 ## YouTube Demo
 
-Watch the demo video on YouTube: ([https://youtu.be/SrDjXo3w-yQ])[https://youtu.be/SrDjXo3w-yQ]
+Watch the (demo video)[https://youtu.be/SrDjXo3w-yQ] on YouTube
 
 ## Conclusion and Recommendations
 
