@@ -2,7 +2,7 @@
 
 
 # Project 4 Shakespeare Poem Generator Flask APP
-Visit the app: [shakespearepoemgenerator.azurewebsites.net](shakespearepoemgenerator.azurewebsites.net)
+Visit the app: [shakespearepoemgenerator.azurewebsites.net](https://shakespearepoemgenerator.azurewebsites.net)
 
 This project is a web-based application that generates Shakespearean poems based on user-selected phrases. The application is built using Flask and can be easily deployed using Docker and Azure App Services. 
 
